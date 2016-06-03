@@ -95,25 +95,25 @@ p{
 /*--------------AboutMe--------------*/
 #me{
     float: left;
-    margin:0 0 0 25px;
+    margin:10px 0px 10px 25px;
     max-width: 350px;
 }
 /*--------------Personal--------------*/
 #personal{
     float: left;
-    margin: 0px 0px 0px 25px;
+    margin: 10px;
     max-width: 350px;
 }
 /*--------------Prof--------------*/
 #proff{
     float: left;
-    margin:0 0 0 25px;
+    margin:0px 0px 10px 25px;
     max-width: 350px;
 }
 /*--------------Contact--------------*/
-#hmu{
+#call{
     float: left;
-    margin:0 0 0 25px;
+    margin: 0px 0px 10px 25px;
     max-width: 350px;
 }
 /*-------------- FOR TABLET --------------*/
@@ -148,16 +148,22 @@ p{
         padding: 0px;
         display: inline-block;
     }
+/*--------------Tablet Contact--------------*/
+    #call{
+        float: left;
+        margin: 85px 0px 0px 5px;
+        max-width: 400px;
+    }
 /*--------------Tablet AboutMe--------------*/
     #me{
     float: left;
     margin: 85px 0px 0px 5px;
-    width: 400px;
+    max-width: 400px;
 }
 /*--------------Tablet Personal--------------*/
     #personal{
     float: left;
-    margin: 85px 0px 0px 5px;
+    margin: 85px 0px 0px 0px;
     max-width: 400px;
 }   
 /*--------------Tablet Prof--------------*/
@@ -166,12 +172,7 @@ p{
     margin: 85px 0px 0px 5px;
     max-width: 400px;
 }
-/*--------------Tablet Contact--------------*/
-   #hmu{
-        float: left;
-        padding: 85px 0px 0px 5px;
-        width: 400px;
-}
+   
 }
 /*-------------- FOR DESKTOP -----------------*/
 @media only screen and (min-width: 1024px){
@@ -191,64 +192,48 @@ p{
     }
 /*--------------Desktop Images-----------------*/
      .img1 {
-        padding: 70px 0px 0px 10px;
+        margin-top: 70px;
+        padding: 0px;
         display: inline-block;
     }
     .img2{
-        padding: 70px 0px 0px 0px;
+        padding: 0;
         display: inline-block;
     }
     .img3{
-        padding: 70px 0px 0px 0px;
+        padding: 0;
         display: inline-block;
     }
     .img4{
-        padding: 0px 0px 20px 314px;
+        padding: 0;
         display: inline-block;
     }
 /*--------------Desktop AboutMe-----------------*/
     #me{
     float: left;
+    display: inline-block;
     margin: 85px 0px 10px 10px;
     max-width: 700px;
 }
 /*--------------Desktop Personal-----------------*/
     #personal{
     float: left;
+    display: inline-block;
     margin: 85px 0px 10px 10px;
     max-width: 700px;
 }
 /*--------------Desktop Prof-----------------*/
     #proff{
     float: left;
+    display: inline-block;
     margin: 85px 0px 10px 10px;
     max-width: 700px;
 }
 /*--------------Desktop Contact-----------------*/
-    #hmu{
+    #call{
     float: left;
+    display: inline-block;
     margin: 85px 0px 10px 10px;
     max-width: 700px;
 }
-}
-/*-------------- FOR LARGE -----------------*/
-@media only screen and (min-width: 1050px){
-
-/*--------------Desktop Images-----------------*/
-     .img1 {
-        padding: 70px 5px 20px 10px;
-        display: inline-block;
-    }
-    .img2{
-        padding: 70px 5px 20px 0px;
-        display: inline-block;
-    }
-    .img3{
-        padding: 70px 5px 20px 0px;
-        display: inline-block;
-    }
-    .img4{
-        padding: 70px 0px 20px 0px;
-        display: inline-block;
-    }
 }
